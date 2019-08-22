@@ -1,16 +1,22 @@
 # DisturPloidy Simulations
 
-The R scripts in this folder define the simulations that we have run to gather the data stored in `./data/`. Data files are RDS format and can be read into R using `readRDS()`. Logs, showing the message output from the model for each simulation are held in `./data/logs/`.
+**Data colleceted from scripts running the `{distuploidy}` R package**
+
+Available here: https://github.com/rosemckeon/ploidy
+
+The R scripts in these folders define the simulations that we have run to gather the data and create any plots. Data files are RDS format and can be read into R using `readRDS()`. Logs, showing the message output from the model for each simulation are held in `./data/logs/` for each set of simulations respectively.
 
 ## Loading the data
 
 from R:
 
 ```
-sim <- readRDS("simulations/data/quick-test-1.rds")
+sim <- readRDS("data/quick-test-1.rds")
 ```
 
 ## Running these simulations for yourself
+
+You'll need a few dependencies to run the scripts. Primarily the [model itself](https://github.com/rosemckeon/ploidy), which isn't yet on CRAN but can be installed via `{devtools}`.
 
 From RStudio you can simply open and run the script files, and in any R console you can use `source("path-to-file.R")`.
 
@@ -20,7 +26,7 @@ When you run simulations via `RScript` the directory the script is in acts as th
 
 ## Data structure
 
-Model output comes as a list. See an example dataset with `data(dploidy_demo)`. It looks like this:
+Model output comes as a list. Once you have disturploidy installed, you can see an example dataset in R with `data(dploidy_demo)`. It looks like this:
 
 ```
 $call
