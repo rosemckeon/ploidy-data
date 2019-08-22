@@ -8,15 +8,20 @@ Data files are RDS format and can be read into R using `readRDS()`. Logs, showin
 
 ## Loading the data
 
-from R:
+Many of the data files in this repository are created using R > 3.6.0 `readRDS()` will fail on these files if your R < 3.5.0
+
+**From R >= 3.5.0:**
 
 ```
 sim <- readRDS("data/quick-test-1.rds")
 ```
 
-## Running these simulations for yourself
+Larger, more meaningful datasets are stored in `./benefits` and `/costs`.
 
-You'll need a few dependencies to run the scripts. Primarily the [model itself](https://github.com/rosemckeon/ploidy), which isn't yet on CRAN but can be installed via `{devtools}` using `install_github()` or `install_local()`.
+
+## Running these/other simulations for yourself
+
+You'll need a few dependencies to run the scripts. Primarily the [model itself](https://github.com/rosemckeon/ploidy), which isn't yet on CRAN but can be installed via `{devtools}`.
 
 From RStudio you can simply open and run the script files, or in any R console you can use `source("path-to-file.R")`.
 
@@ -26,7 +31,7 @@ When you run simulations via `RScript` the directory the script is in acts as th
 
 ## Data structure
 
-Model output comes as a list. `data/quick-test-1.rds` looks like this:
+Model output comes as a list. For example `data/quick-test-1.rds` looks like this:
 
 ```
 List of 7
