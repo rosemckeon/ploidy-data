@@ -14,6 +14,7 @@ runs <- 1:3
 # logfile is stored for each simulation.
 for(run in runs){
   # include a null result
+  if(run > 1){
   this_run <- paste0(name, "_0.0_disturbance_000_", run)
   disturploidy(
     pop_size = 750,
@@ -54,7 +55,7 @@ for(run in runs){
     ploidy_prob = 0.01,
     inbreeding_cost = 1
   )
-
+  
   # then repeat all 3 with varied disturbance
   # 100
   this_run <- paste0(name, "_0.0_disturbance_100_", run)
@@ -70,6 +71,7 @@ for(run in runs){
     # add disturbance
     disturbance_freq = 100
   )
+ 
   # then vary the benefit
   this_run <- paste0(name, "_0.5_disturbance_100_", run)
   disturploidy(
@@ -87,6 +89,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 100
   )
+  
   this_run <- paste0(name, "_1.0_disturbance_100_", run)
   disturploidy(
     pop_size = 7500,
@@ -103,7 +106,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 100
   )
-
+  }
   # 50
   this_run <- paste0(name, "_0.0_disturbance_050_", run)
   disturploidy(
