@@ -1,0 +1,1068 @@
+SIMULATION 1:
+*************
+Starting population of 250 random seeds.
+Simulation 1, Generation 1:
+Germination:
+  New juveniles: 250
+Growth:
+  Growth rate min: 1.095
+  Growth rate max: 2.734
+  Adults before growth: 0
+  Adults after growth: 217
+Competition (between adults):
+  K = 1
+  Size increases chances.
+  Populated locations with competition: 64
+  Populated locations without competition: 25
+  2 plants compete in cell: 0, 0.
+  2 plants compete in cell: 0, 1.
+  5 plants compete in cell: 0, 5.
+  2 plants compete in cell: 0, 6.
+  3 plants compete in cell: 0, 8.
+  2 plants compete in cell: 0, 9.
+  2 plants compete in cell: 1, 0.
+  6 plants compete in cell: 1, 3.
+  3 plants compete in cell: 1, 4.
+  4 plants compete in cell: 1, 6.
+  3 plants compete in cell: 1, 7.
+  3 plants compete in cell: 1, 8.
+  2 plants compete in cell: 2, 0.
+  2 plants compete in cell: 2, 1.
+  3 plants compete in cell: 2, 3.
+  3 plants compete in cell: 2, 5.
+  2 plants compete in cell: 2, 9.
+  2 plants compete in cell: 3, 0.
+  5 plants compete in cell: 3, 1.
+  2 plants compete in cell: 3, 2.
+  3 plants compete in cell: 3, 3.
+  2 plants compete in cell: 3, 5.
+  2 plants compete in cell: 3, 6.
+  4 plants compete in cell: 3, 7.
+  6 plants compete in cell: 3, 8.
+  3 plants compete in cell: 4, 0.
+  4 plants compete in cell: 4, 2.
+  2 plants compete in cell: 4, 3.
+  3 plants compete in cell: 4, 4.
+  2 plants compete in cell: 4, 5.
+  3 plants compete in cell: 4, 6.
+  3 plants compete in cell: 4, 7.
+  5 plants compete in cell: 4, 8.
+  2 plants compete in cell: 4, 9.
+  3 plants compete in cell: 5, 0.
+  2 plants compete in cell: 5, 1.
+  4 plants compete in cell: 5, 2.
+  2 plants compete in cell: 5, 4.
+  2 plants compete in cell: 5, 5.
+  3 plants compete in cell: 5, 8.
+  2 plants compete in cell: 5, 9.
+  2 plants compete in cell: 6, 1.
+  4 plants compete in cell: 6, 4.
+  4 plants compete in cell: 6, 6.
+  2 plants compete in cell: 6, 7.
+  3 plants compete in cell: 7, 1.
+  6 plants compete in cell: 7, 2.
+  4 plants compete in cell: 7, 3.
+  5 plants compete in cell: 7, 4.
+  2 plants compete in cell: 7, 5.
+  3 plants compete in cell: 7, 6.
+  3 plants compete in cell: 7, 8.
+  3 plants compete in cell: 7, 9.
+  4 plants compete in cell: 8, 2.
+  2 plants compete in cell: 8, 3.
+  2 plants compete in cell: 8, 6.
+  2 plants compete in cell: 8, 8.
+  2 plants compete in cell: 8, 9.
+  3 plants compete in cell: 9, 0.
+  3 plants compete in cell: 9, 3.
+  3 plants compete in cell: 9, 4.
+  2 plants compete in cell: 9, 6.
+  2 plants compete in cell: 9, 8.
+  6 plants compete in cell: 9, 9.
+  Loosers removed.
+  Juveniles outcompeted by adults in the same location: 31
+  Juveniles remaining: 2
+Reproduction:
+  Adults ready to reproduce: 89
+  2225 ovules created: 25 ovules per adult.
+  -----------
+  18 zygotes created in cell: 0, 0.
+  21 zygotes created in cell: 0, 1.
+  18 zygotes created in cell: 0, 2.
+  18 zygotes created in cell: 0, 3.
+  19 zygotes created in cell: 0, 4.
+  18 zygotes created in cell: 0, 5.
+  22 zygotes created in cell: 0, 6.
+  16 zygotes created in cell: 0, 8.
+  20 zygotes created in cell: 0, 9.
+  19 zygotes created in cell: 1, 0.
+  21 zygotes created in cell: 1, 1.
+  17 zygotes created in cell: 1, 2.
+  21 zygotes created in cell: 1, 3.
+  15 zygotes created in cell: 1, 4.
+  16 zygotes created in cell: 1, 5.
+  20 zygotes created in cell: 1, 6.
+  16 zygotes created in cell: 1, 7.
+  16 zygotes created in cell: 1, 8.
+  15 zygotes created in cell: 2, 0.
+  19 zygotes created in cell: 2, 1.
+  19 zygotes created in cell: 2, 2.
+  20 zygotes created in cell: 2, 3.
+  16 zygotes created in cell: 2, 5.
+  16 zygotes created in cell: 2, 6.
+  16 zygotes created in cell: 2, 7.
+  21 zygotes created in cell: 2, 8.
+  19 zygotes created in cell: 2, 9.
+  21 zygotes created in cell: 3, 0.
+  15 zygotes created in cell: 3, 1.
+  21 zygotes created in cell: 3, 2.
+  22 zygotes created in cell: 3, 3.
+  17 zygotes created in cell: 3, 4.
+  20 zygotes created in cell: 3, 5.
+  20 zygotes created in cell: 3, 6.
+  15 zygotes created in cell: 3, 7.
+  19 zygotes created in cell: 3, 8.
+  21 zygotes created in cell: 4, 0.
+  22 zygotes created in cell: 4, 1.
+  18 zygotes created in cell: 4, 2.
+  18 zygotes created in cell: 4, 3.
+  19 zygotes created in cell: 4, 4.
+  18 zygotes created in cell: 4, 5.
+  16 zygotes created in cell: 4, 6.
+  17 zygotes created in cell: 4, 7.
+  17 zygotes created in cell: 4, 8.
+  15 zygotes created in cell: 4, 9.
+  19 zygotes created in cell: 5, 0.
+  22 zygotes created in cell: 5, 1.
+  17 zygotes created in cell: 5, 2.
+  19 zygotes created in cell: 5, 3.
+  17 zygotes created in cell: 5, 4.
+  17 zygotes created in cell: 5, 5.
+  19 zygotes created in cell: 5, 7.
+  17 zygotes created in cell: 5, 8.
+  19 zygotes created in cell: 5, 9.
+  20 zygotes created in cell: 6, 0.
+  17 zygotes created in cell: 6, 1.
+  22 zygotes created in cell: 6, 4.
+  21 zygotes created in cell: 6, 6.
+  23 zygotes created in cell: 6, 7.
+  21 zygotes created in cell: 6, 8.
+  19 zygotes created in cell: 6, 9.
+  17 zygotes created in cell: 7, 0.
+  16 zygotes created in cell: 7, 1.
+  17 zygotes created in cell: 7, 2.
+  17 zygotes created in cell: 7, 3.
+  20 zygotes created in cell: 7, 4.
+  17 zygotes created in cell: 7, 5.
+  18 zygotes created in cell: 7, 6.
+  17 zygotes created in cell: 7, 7.
+  22 zygotes created in cell: 7, 8.
+  17 zygotes created in cell: 7, 9.
+  17 zygotes created in cell: 8, 0.
+  19 zygotes created in cell: 8, 1.
+  17 zygotes created in cell: 8, 2.
+  18 zygotes created in cell: 8, 3.
+  19 zygotes created in cell: 8, 4.
+  16 zygotes created in cell: 8, 6.
+  18 zygotes created in cell: 8, 7.
+  19 zygotes created in cell: 8, 8.
+  22 zygotes created in cell: 8, 9.
+  19 zygotes created in cell: 9, 0.
+  18 zygotes created in cell: 9, 1.
+  20 zygotes created in cell: 9, 3.
+  19 zygotes created in cell: 9, 4.
+  16 zygotes created in cell: 9, 6.
+  18 zygotes created in cell: 9, 7.
+  14 zygotes created in cell: 9, 8.
+  15 zygotes created in cell: 9, 9.
+  -----------
+  Zygotes formatted as seeds.
+  Seed output (F): 1634
+  Seeds dispersed.
+Germination: 1.459 sec elapsed
+Growth: 0.019 sec elapsed
+Competition: 0.137 sec elapsed
+Reproduction: 2.93 sec elapsed
+Generation: 4.712 sec elapsed
++++++++++++++++++++++++++++
+Simulation 1, Generation 2:
+Survival:
+  Surviving juveniles: 0/2
+  Surviving adults: 49/89
+Germination:
+  Seeds unable to germinate because of established adults: 809
+~~~~~~~~~~33~~~~~~~~4~~~~~~~~~~~~~~~3~~~~~~~~~3~~~~3~~4~~~~~~~~~~~3~~4~~~~~3~4~~3~~~~3~~~~~3~~34~~~~~~~~~~~~~~~~~~~~~~~~~~4~~~~~~4~~~~4~33~3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~4~~~~~43~~~~~~~3~~~4~~~~~~3~~4~~~~~3~~~~~3~~~~~~~~~~~~~~34~~~~~~~4~~~~~~~~~~~~~~~~~~3~~~~33~~~~~~~~~~3~~~~~4~~~~~~~~~~~~~~~~4~~~~~~~4~~~~~~~~~~~3~3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~4~~~~4~~~~~~~~3~~~4~~~~~~~~~3~~~~~~~~~~~~~~~~~~~~~~~~~4~~~~~~~3~~~~~~~~~~~~~~~~3~~~~
+  New juveniles: 429
+  Surviving ungerminated seeds: 0/396
+Growth:
+  Growth rate min: 1.057
+  Growth rate max: 2.763
+  Adults before growth: 49
+  Adults after growth: 440
+Competition (between adults):
+  K = 1
+  Size increases chances.
+  Populated locations with competition: 51
+  Populated locations without competition: 49
+  5 plants compete in cell: 0, 3.
+  3 plants compete in cell: 0, 5.
+  7 plants compete in cell: 0, 7.
+  3 plants compete in cell: 0, 8.
+  10 plants compete in cell: 0, 9.
+  8 plants compete in cell: 1, 0.
+  9 plants compete in cell: 1, 1.
+  16 plants compete in cell: 1, 8.
+  9 plants compete in cell: 1, 9.
+  8 plants compete in cell: 2, 0.
+  11 plants compete in cell: 2, 1.
+  6 plants compete in cell: 2, 2.
+  9 plants compete in cell: 2, 4.
+  7 plants compete in cell: 2, 6.
+  5 plants compete in cell: 2, 7.
+  12 plants compete in cell: 2, 9.
+  12 plants compete in cell: 3, 1.
+  4 plants compete in cell: 3, 3.
+  10 plants compete in cell: 3, 7.
+  7 plants compete in cell: 3, 8.
+  9 plants compete in cell: 3, 9.
+  5 plants compete in cell: 4, 2.
+  5 plants compete in cell: 4, 4.
+  13 plants compete in cell: 4, 8.
+  11 plants compete in cell: 4, 9.
+  10 plants compete in cell: 5, 1.
+  11 plants compete in cell: 5, 2.
+  8 plants compete in cell: 5, 5.
+  3 plants compete in cell: 5, 6.
+  9 plants compete in cell: 6, 1.
+  7 plants compete in cell: 6, 2.
+  4 plants compete in cell: 6, 3.
+  5 plants compete in cell: 6, 5.
+  9 plants compete in cell: 6, 6.
+  6 plants compete in cell: 7, 0.
+  10 plants compete in cell: 7, 1.
+  8 plants compete in cell: 7, 3.
+  10 plants compete in cell: 7, 4.
+  8 plants compete in cell: 7, 6.
+  5 plants compete in cell: 7, 8.
+  6 plants compete in cell: 8, 0.
+  10 plants compete in cell: 8, 2.
+  6 plants compete in cell: 8, 4.
+  6 plants compete in cell: 8, 5.
+  7 plants compete in cell: 8, 8.
+  6 plants compete in cell: 8, 9.
+  5 plants compete in cell: 9, 0.
+  11 plants compete in cell: 9, 1.
+  3 plants compete in cell: 9, 2.
+  5 plants compete in cell: 9, 5.
+  9 plants compete in cell: 9, 9.
+  Loosers removed.
+  Juveniles outcompeted by adults in the same location: 38
+  Juveniles remaining: 0
+Reproduction:
+  Adults ready to reproduce: 100
+  2500 ovules created: 25 ovules per adult.
+  -----------
+  18 zygotes created in cell: 0, 0.
+  17 zygotes created in cell: 0, 1.
+  19 zygotes created in cell: 0, 2.
+  17 zygotes created in cell: 0, 3.
+  19 zygotes created in cell: 0, 4.
+  19 zygotes created in cell: 0, 5.
+  20 zygotes created in cell: 0, 6.
+  6 zygotes created in cell: 0, 7.
+  19 zygotes created in cell: 0, 8.
+  20 zygotes created in cell: 0, 9.
+  18 zygotes created in cell: 1, 0.
+  14 zygotes created in cell: 1, 1.
+  19 zygotes created in cell: 1, 2.
+  21 zygotes created in cell: 1, 3.
+  14 zygotes created in cell: 1, 4.
+  22 zygotes created in cell: 1, 5.
+  20 zygotes created in cell: 1, 6.
+  18 zygotes created in cell: 1, 7.
+  18 zygotes created in cell: 1, 8.
+  19 zygotes created in cell: 1, 9.
+  13 zygotes created in cell: 2, 0.
+  20 zygotes created in cell: 2, 1.
+  17 zygotes created in cell: 2, 2.
+  19 zygotes created in cell: 2, 3.
+  18 zygotes created in cell: 2, 4.
+  21 zygotes created in cell: 2, 5.
+  19 zygotes created in cell: 2, 6.
+  19 zygotes created in cell: 2, 7.
+  20 zygotes created in cell: 2, 8.
+  19 zygotes created in cell: 2, 9.
+  18 zygotes created in cell: 3, 0.
+  24 zygotes created in cell: 3, 1.
+  20 zygotes created in cell: 3, 2.
+  18 zygotes created in cell: 3, 3.
+  21 zygotes created in cell: 3, 4.
+  17 zygotes created in cell: 3, 5.
+  17 zygotes created in cell: 3, 6.
+  19 zygotes created in cell: 3, 7.
+  17 zygotes created in cell: 3, 8.
+  19 zygotes created in cell: 3, 9.
+  18 zygotes created in cell: 4, 0.
+  18 zygotes created in cell: 4, 1.
+  16 zygotes created in cell: 4, 2.
+  19 zygotes created in cell: 4, 3.
+  19 zygotes created in cell: 4, 4.
+  22 zygotes created in cell: 4, 5.
+  17 zygotes created in cell: 4, 6.
+  19 zygotes created in cell: 4, 7.
+  19 zygotes created in cell: 4, 8.
+  19 zygotes created in cell: 4, 9.
+  18 zygotes created in cell: 5, 0.
+  18 zygotes created in cell: 5, 1.
+  19 zygotes created in cell: 5, 2.
+  17 zygotes created in cell: 5, 3.
+  18 zygotes created in cell: 5, 4.
+  19 zygotes created in cell: 5, 5.
+  18 zygotes created in cell: 5, 6.
+  16 zygotes created in cell: 5, 7.
+  18 zygotes created in cell: 5, 8.
+  15 zygotes created in cell: 5, 9.
+  20 zygotes created in cell: 6, 0.
+  20 zygotes created in cell: 6, 1.
+  15 zygotes created in cell: 6, 2.
+  16 zygotes created in cell: 6, 3.
+  18 zygotes created in cell: 6, 4.
+  19 zygotes created in cell: 6, 5.
+  20 zygotes created in cell: 6, 6.
+  20 zygotes created in cell: 6, 7.
+  20 zygotes created in cell: 6, 8.
+  13 zygotes created in cell: 6, 9.
+  7 zygotes created in cell: 7, 0.
+  16 zygotes created in cell: 7, 1.
+  20 zygotes created in cell: 7, 2.
+  14 zygotes created in cell: 7, 3.
+  18 zygotes created in cell: 7, 4.
+  15 zygotes created in cell: 7, 5.
+  17 zygotes created in cell: 7, 6.
+  18 zygotes created in cell: 7, 7.
+  18 zygotes created in cell: 7, 8.
+  17 zygotes created in cell: 7, 9.
+  19 zygotes created in cell: 8, 0.
+  18 zygotes created in cell: 8, 1.
+  5 zygotes created in cell: 8, 2.
+  21 zygotes created in cell: 8, 3.
+  20 zygotes created in cell: 8, 4.
+  6 zygotes created in cell: 8, 5.
+  17 zygotes created in cell: 8, 6.
+  20 zygotes created in cell: 8, 7.
+  19 zygotes created in cell: 8, 8.
+  6 zygotes created in cell: 8, 9.
+  21 zygotes created in cell: 9, 0.
+  17 zygotes created in cell: 9, 1.
+  19 zygotes created in cell: 9, 2.
+  19 zygotes created in cell: 9, 3.
+  17 zygotes created in cell: 9, 4.
+  18 zygotes created in cell: 9, 5.
+  15 zygotes created in cell: 9, 6.
+  16 zygotes created in cell: 9, 7.
+  17 zygotes created in cell: 9, 8.
+  22 zygotes created in cell: 9, 9.
+  -----------
+  Zygotes formatted as seeds.
+  Seed output (F): 1767
+  Seeds dispersed.
+Survival: 0.011 sec elapsed
+Germination: 20.456 sec elapsed
+Growth: 0.028 sec elapsed
+Competition: 0.105 sec elapsed
+Reproduction: 3.265 sec elapsed
+Generation: 24.121 sec elapsed
++++++++++++++++++++++++++++
+Simulation 1, Generation 3:
+Survival:
+  Disturbance reduced survival chances by 75 %.
+  Surviving adults: 11/100
+Germination:
+  Seeds unable to germinate because of established adults: 190
+~~~~~~~~3~~~~~~~~~~~~4~~~~3~~~4~~~~~~~~4~4~~~~~~3~34~~33~~~~~~~~4~~~~~~~~~~34~~~~~~~3~4~33~~~~~~~~~~~~3~~~~~~3~3~~~~3~~~~~~~~~~~~~3~~~~~~~~~~~3~4~~~3~~~33~~~~~~~~~3~~~~~~~~~~3~~~~~~~~33~~43~3~~~~~~~~~~33~~~3~~~~3~~~~~~~~~~~~~~~3~~3~~~~3~~~~~~~~~~3~~~~~~~~~~~~~~~~~~~~~~~~~~4~~3~~~~~~3~~~~~3~~~4~~~~4~~~~~3~~~~~3~~~3~3~~~~~3~~~~4~3~~~~~4~~~~~~3~~~33~~~~3~3~~~~~~~~~3~~4~~~~~~~~~~~3~~~~~~~~3~~~~3~~~~~~~~~~~~~~~~~~~3~~~~~~~~~~~~4~~~~~~~~43~~~~~~~~~~~~~~3~~~~~~4~3~4~4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~4~~~~~~~33333343333~~~~3~3~~~~~~~~~~~~~4~3~33333~~~~~~~~34~~~~~4~~~~~~~~~3~~~~~~~~4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~3~~~~~~~~~~~~~~3~~~~~~~~~~~~~~~~~3~3~~~~~~~333~~~~~3~~~~~~~~4~3~~~~~33~~~~~4~~~3~3~~~~4~~~~33~3~~~~~~~~~~~~~~~~~~~~4~~~~~~~~~~~3~~~~~~~3~~~~43~
+  New juveniles: 765
+  Surviving ungerminated seeds: 0/812
+Growth:
+  Growth rate min: 1.015
+  Growth rate max: 2.708
+  Adults before growth: 11
+  Adults after growth: 722
+Competition (between adults):
+  K = 1
+  Size increases chances.
+  Populated locations with competition: 89
+  Populated locations without competition: 11
+  10 plants compete in cell: 0, 0.
+  7 plants compete in cell: 0, 1.
+  12 plants compete in cell: 0, 2.
+  11 plants compete in cell: 0, 3.
+  16 plants compete in cell: 0, 4.
+  11 plants compete in cell: 0, 5.
+  6 plants compete in cell: 0, 6.
+  6 plants compete in cell: 0, 7.
+  7 plants compete in cell: 0, 9.
+  9 plants compete in cell: 1, 1.
+  7 plants compete in cell: 1, 2.
+  7 plants compete in cell: 1, 3.
+  9 plants compete in cell: 1, 4.
+  7 plants compete in cell: 1, 5.
+  14 plants compete in cell: 1, 6.
+  9 plants compete in cell: 1, 7.
+  9 plants compete in cell: 1, 8.
+  7 plants compete in cell: 1, 9.
+  7 plants compete in cell: 2, 0.
+  7 plants compete in cell: 2, 1.
+  7 plants compete in cell: 2, 3.
+  7 plants compete in cell: 2, 4.
+  9 plants compete in cell: 2, 5.
+  7 plants compete in cell: 2, 6.
+  6 plants compete in cell: 2, 7.
+  9 plants compete in cell: 2, 8.
+  14 plants compete in cell: 2, 9.
+  5 plants compete in cell: 3, 0.
+  7 plants compete in cell: 3, 1.
+  10 plants compete in cell: 3, 2.
+  9 plants compete in cell: 3, 3.
+  11 plants compete in cell: 3, 4.
+  8 plants compete in cell: 3, 5.
+  7 plants compete in cell: 3, 6.
+  11 plants compete in cell: 3, 7.
+  11 plants compete in cell: 3, 8.
+  8 plants compete in cell: 3, 9.
+  7 plants compete in cell: 4, 0.
+  9 plants compete in cell: 4, 1.
+  11 plants compete in cell: 4, 3.
+  11 plants compete in cell: 4, 4.
+  5 plants compete in cell: 4, 5.
+  11 plants compete in cell: 4, 6.
+  8 plants compete in cell: 4, 7.
+  6 plants compete in cell: 5, 0.
+  8 plants compete in cell: 5, 1.
+  10 plants compete in cell: 5, 2.
+  6 plants compete in cell: 5, 3.
+  9 plants compete in cell: 5, 4.
+  9 plants compete in cell: 5, 5.
+  8 plants compete in cell: 5, 6.
+  4 plants compete in cell: 5, 7.
+  13 plants compete in cell: 5, 8.
+  7 plants compete in cell: 5, 9.
+  9 plants compete in cell: 6, 0.
+  11 plants compete in cell: 6, 1.
+  8 plants compete in cell: 6, 2.
+  5 plants compete in cell: 6, 3.
+  5 plants compete in cell: 6, 4.
+  11 plants compete in cell: 6, 5.
+  6 plants compete in cell: 6, 7.
+  3 plants compete in cell: 6, 8.
+  6 plants compete in cell: 6, 9.
+  10 plants compete in cell: 7, 0.
+  8 plants compete in cell: 7, 1.
+  8 plants compete in cell: 7, 2.
+  3 plants compete in cell: 7, 3.
+  7 plants compete in cell: 7, 4.
+  6 plants compete in cell: 7, 6.
+  5 plants compete in cell: 7, 7.
+  12 plants compete in cell: 7, 9.
+  6 plants compete in cell: 8, 0.
+  3 plants compete in cell: 8, 1.
+  12 plants compete in cell: 8, 2.
+  7 plants compete in cell: 8, 3.
+  9 plants compete in cell: 8, 4.
+  10 plants compete in cell: 8, 5.
+  6 plants compete in cell: 8, 6.
+  6 plants compete in cell: 8, 7.
+  5 plants compete in cell: 8, 8.
+  5 plants compete in cell: 8, 9.
+  9 plants compete in cell: 9, 0.
+  4 plants compete in cell: 9, 1.
+  7 plants compete in cell: 9, 2.
+  8 plants compete in cell: 9, 4.
+  3 plants compete in cell: 9, 5.
+  8 plants compete in cell: 9, 6.
+  6 plants compete in cell: 9, 7.
+  8 plants compete in cell: 9, 9.
+  Loosers removed.
+  Juveniles outcompeted by adults in the same location: 54
+  Juveniles remaining: 0
+Reproduction:
+  Adults ready to reproduce: 100
+  2500 ovules created: 25 ovules per adult.
+  -----------
+  16 zygotes created in cell: 0, 0.
+  21 zygotes created in cell: 0, 1.
+  17 zygotes created in cell: 0, 2.
+  19 zygotes created in cell: 0, 3.
+  20 zygotes created in cell: 0, 4.
+  21 zygotes created in cell: 0, 5.
+  4 zygotes created in cell: 0, 6.
+  7 zygotes created in cell: 0, 7.
+  19 zygotes created in cell: 0, 8.
+  21 zygotes created in cell: 0, 9.
+  23 zygotes created in cell: 1, 0.
+  20 zygotes created in cell: 1, 1.
+  6 zygotes created in cell: 1, 2.
+  16 zygotes created in cell: 1, 3.
+  22 zygotes created in cell: 1, 4.
+  17 zygotes created in cell: 1, 5.
+  14 zygotes created in cell: 1, 6.
+  20 zygotes created in cell: 1, 7.
+  21 zygotes created in cell: 1, 8.
+  20 zygotes created in cell: 1, 9.
+  2 zygotes created in cell: 2, 0.
+  19 zygotes created in cell: 2, 1.
+  16 zygotes created in cell: 2, 2.
+  18 zygotes created in cell: 2, 3.
+  17 zygotes created in cell: 2, 4.
+  15 zygotes created in cell: 2, 5.
+  6 zygotes created in cell: 2, 6.
+  17 zygotes created in cell: 2, 7.
+  19 zygotes created in cell: 2, 8.
+  21 zygotes created in cell: 2, 9.
+  19 zygotes created in cell: 3, 0.
+  20 zygotes created in cell: 3, 1.
+  16 zygotes created in cell: 3, 2.
+  18 zygotes created in cell: 3, 3.
+  17 zygotes created in cell: 3, 4.
+  4 zygotes created in cell: 3, 5.
+  21 zygotes created in cell: 3, 6.
+  20 zygotes created in cell: 3, 7.
+  21 zygotes created in cell: 3, 8.
+  17 zygotes created in cell: 3, 9.
+  17 zygotes created in cell: 4, 0.
+  17 zygotes created in cell: 4, 1.
+  17 zygotes created in cell: 4, 2.
+  17 zygotes created in cell: 4, 3.
+  19 zygotes created in cell: 4, 4.
+  16 zygotes created in cell: 4, 5.
+  20 zygotes created in cell: 4, 6.
+  21 zygotes created in cell: 4, 7.
+  19 zygotes created in cell: 4, 8.
+  21 zygotes created in cell: 4, 9.
+  19 zygotes created in cell: 5, 0.
+  8 zygotes created in cell: 5, 1.
+  19 zygotes created in cell: 5, 2.
+  15 zygotes created in cell: 5, 3.
+  19 zygotes created in cell: 5, 4.
+  22 zygotes created in cell: 5, 5.
+  19 zygotes created in cell: 5, 6.
+  21 zygotes created in cell: 5, 7.
+  18 zygotes created in cell: 5, 8.
+  7 zygotes created in cell: 5, 9.
+  17 zygotes created in cell: 6, 0.
+  20 zygotes created in cell: 6, 1.
+  17 zygotes created in cell: 6, 2.
+  20 zygotes created in cell: 6, 3.
+  18 zygotes created in cell: 6, 4.
+  19 zygotes created in cell: 6, 5.
+  19 zygotes created in cell: 6, 6.
+  19 zygotes created in cell: 6, 7.
+  19 zygotes created in cell: 6, 8.
+  18 zygotes created in cell: 6, 9.
+  17 zygotes created in cell: 7, 0.
+  15 zygotes created in cell: 7, 1.
+  4 zygotes created in cell: 7, 2.
+  7 zygotes created in cell: 7, 3.
+  14 zygotes created in cell: 7, 4.
+  19 zygotes created in cell: 7, 5.
+  16 zygotes created in cell: 7, 6.
+  17 zygotes created in cell: 7, 7.
+  15 zygotes created in cell: 7, 8.
+  21 zygotes created in cell: 7, 9.
+  18 zygotes created in cell: 8, 0.
+  20 zygotes created in cell: 8, 1.
+  19 zygotes created in cell: 8, 2.
+  17 zygotes created in cell: 8, 3.
+  20 zygotes created in cell: 8, 4.
+  15 zygotes created in cell: 8, 5.
+  20 zygotes created in cell: 8, 6.
+  3 zygotes created in cell: 8, 7.
+  22 zygotes created in cell: 8, 8.
+  16 zygotes created in cell: 8, 9.
+  8 zygotes created in cell: 9, 0.
+  21 zygotes created in cell: 9, 1.
+  18 zygotes created in cell: 9, 2.
+  19 zygotes created in cell: 9, 3.
+  18 zygotes created in cell: 9, 4.
+  18 zygotes created in cell: 9, 5.
+  18 zygotes created in cell: 9, 6.
+  17 zygotes created in cell: 9, 7.
+  19 zygotes created in cell: 9, 8.
+  20 zygotes created in cell: 9, 9.
+  -----------
+  Zygotes formatted as seeds.
+  Seed output (F): 1695
+  Seeds dispersed.
+Survival: 0.006 sec elapsed
+Germination: 36.389 sec elapsed
+Growth: 0.006 sec elapsed
+Competition: 0.104 sec elapsed
+Reproduction: 3.078 sec elapsed
+Generation: 39.872 sec elapsed
++++++++++++++++++++++++++++
+Simulation 1, Generation 4:
+Survival:
+  Disturbance reduced survival chances by 75 %.
+  Surviving adults: 5/100
+Germination:
+  Seeds unable to germinate because of established adults: 96
+~~~~~~3~33~~4~~~~~~4~3~~~34~~4~~3~~~~~3~~3~~~~~3~~~~~~~~~~33333~~~3~~~~~~33434334333~~~3~3~3~~~~~3~~~~~~3334~~~~~3~~~~334~~~~~3~~~~3~~3~~~3~3433~~3~433~~~~~~~~~~~3~~~3~~~~~3333344334~33~~~~3~~4~~~~3~~~~~~~~~~~~~~~3~~~~~~333~~~~~3~~~~~3~~3~~~~~~33~3333~~~3~3~~34343~~~3~~~~3~~~~~~~~~~~3~33334443344~~~3~~~~~~~~~~~~~~~~~~~~3~3~3434~433~~~~~3~~~~~~~3~~3~33333333433343333333433344~33~~3~~~~~~~~~~~~3~3~~~~~~~~~3~~3~~~3~~3~~~3~~~3~~~~~~~~~~~~~~~~3~433~3~3~~~~~3~~~~~~~3~3~~~~~~~~~~~~3~~3~~~~~~~~~~~3~~~~3~3~~3~~333~~~~~334~3~~~~~~~~3~~3~~~~3~~~~3~~333~~~~~~~~~~~333333333333~~~~~~33~~3~~~333~~~~4~~~~~~~~~~~~~~~~~~~33~~3~~~~3~~3~4~~4~~~~~~~3~~~~~~~~~~~~3~3~~~3~~~~~4~3~~~~3~~~~~4~~~~~~4~~~~~~~~3~333~~~~3~333333434333333~~~~~~~~~~3~~~~~3334~~~~~~~33~~~~~~3~~3~3~~~~~~~~~~~~~~3~3~3~~4~3~4~~~~~~~~~~~4~~~~~~~~~~~~3~333~4~~
+  New juveniles: 816
+  Surviving ungerminated seeds: 0/783
+Growth:
+  Growth rate min: 1.034
+  Growth rate max: 2.739
+  Adults before growth: 5
+  Adults after growth: 757
+Competition (between adults):
+  K = 1
+  Size increases chances.
+  Populated locations with competition: 95
+  Populated locations without competition: 5
+  7 plants compete in cell: 0, 0.
+  17 plants compete in cell: 0, 1.
+  6 plants compete in cell: 0, 2.
+  8 plants compete in cell: 0, 3.
+  7 plants compete in cell: 0, 4.
+  6 plants compete in cell: 0, 5.
+  12 plants compete in cell: 0, 6.
+  7 plants compete in cell: 0, 7.
+  12 plants compete in cell: 0, 8.
+  9 plants compete in cell: 0, 9.
+  10 plants compete in cell: 1, 0.
+  8 plants compete in cell: 1, 1.
+  9 plants compete in cell: 1, 2.
+  3 plants compete in cell: 1, 3.
+  8 plants compete in cell: 1, 4.
+  11 plants compete in cell: 1, 5.
+  8 plants compete in cell: 1, 6.
+  7 plants compete in cell: 1, 7.
+  6 plants compete in cell: 1, 8.
+  5 plants compete in cell: 1, 9.
+  10 plants compete in cell: 2, 0.
+  15 plants compete in cell: 2, 1.
+  12 plants compete in cell: 2, 2.
+  10 plants compete in cell: 2, 3.
+  8 plants compete in cell: 2, 4.
+  5 plants compete in cell: 2, 5.
+  5 plants compete in cell: 2, 6.
+  11 plants compete in cell: 2, 7.
+  10 plants compete in cell: 2, 8.
+  7 plants compete in cell: 2, 9.
+  3 plants compete in cell: 3, 0.
+  5 plants compete in cell: 3, 1.
+  5 plants compete in cell: 3, 2.
+  5 plants compete in cell: 3, 3.
+  14 plants compete in cell: 3, 4.
+  5 plants compete in cell: 3, 6.
+  5 plants compete in cell: 3, 7.
+  3 plants compete in cell: 3, 8.
+  3 plants compete in cell: 4, 1.
+  9 plants compete in cell: 4, 2.
+  7 plants compete in cell: 4, 3.
+  8 plants compete in cell: 4, 4.
+  7 plants compete in cell: 4, 5.
+  7 plants compete in cell: 4, 6.
+  4 plants compete in cell: 4, 7.
+  10 plants compete in cell: 4, 8.
+  6 plants compete in cell: 4, 9.
+  6 plants compete in cell: 5, 0.
+  5 plants compete in cell: 5, 1.
+  10 plants compete in cell: 5, 2.
+  9 plants compete in cell: 5, 3.
+  11 plants compete in cell: 5, 4.
+  11 plants compete in cell: 5, 5.
+  9 plants compete in cell: 5, 6.
+  9 plants compete in cell: 5, 7.
+  5 plants compete in cell: 5, 8.
+  6 plants compete in cell: 5, 9.
+  7 plants compete in cell: 6, 1.
+  7 plants compete in cell: 6, 2.
+  8 plants compete in cell: 6, 3.
+  9 plants compete in cell: 6, 4.
+  11 plants compete in cell: 6, 5.
+  10 plants compete in cell: 6, 6.
+  6 plants compete in cell: 6, 7.
+  6 plants compete in cell: 6, 8.
+  10 plants compete in cell: 6, 9.
+  10 plants compete in cell: 7, 0.
+  6 plants compete in cell: 7, 1.
+  8 plants compete in cell: 7, 2.
+  6 plants compete in cell: 7, 3.
+  6 plants compete in cell: 7, 4.
+  8 plants compete in cell: 7, 5.
+  12 plants compete in cell: 7, 6.
+  9 plants compete in cell: 7, 7.
+  8 plants compete in cell: 7, 8.
+  13 plants compete in cell: 7, 9.
+  9 plants compete in cell: 8, 0.
+  16 plants compete in cell: 8, 1.
+  2 plants compete in cell: 8, 2.
+  5 plants compete in cell: 8, 3.
+  10 plants compete in cell: 8, 4.
+  13 plants compete in cell: 8, 5.
+  9 plants compete in cell: 8, 6.
+  10 plants compete in cell: 8, 7.
+  11 plants compete in cell: 8, 8.
+  10 plants compete in cell: 8, 9.
+  3 plants compete in cell: 9, 0.
+  9 plants compete in cell: 9, 1.
+  6 plants compete in cell: 9, 2.
+  6 plants compete in cell: 9, 4.
+  7 plants compete in cell: 9, 5.
+  4 plants compete in cell: 9, 6.
+  8 plants compete in cell: 9, 7.
+  3 plants compete in cell: 9, 8.
+  5 plants compete in cell: 9, 9.
+  Loosers removed.
+  Juveniles outcompeted by adults in the same location: 64
+  Juveniles remaining: 0
+Reproduction:
+  Adults ready to reproduce: 100
+  2500 ovules created: 25 ovules per adult.
+  -----------
+  18 zygotes created in cell: 0, 0.
+  22 zygotes created in cell: 0, 1.
+  17 zygotes created in cell: 0, 2.
+  3 zygotes created in cell: 0, 3.
+  18 zygotes created in cell: 0, 4.
+  23 zygotes created in cell: 0, 5.
+  20 zygotes created in cell: 0, 6.
+  7 zygotes created in cell: 0, 7.
+  19 zygotes created in cell: 0, 8.
+  1 zygotes created in cell: 0, 9.
+  17 zygotes created in cell: 1, 0.
+  19 zygotes created in cell: 1, 1.
+  21 zygotes created in cell: 1, 2.
+  8 zygotes created in cell: 1, 3.
+  18 zygotes created in cell: 1, 4.
+  4 zygotes created in cell: 1, 5.
+  4 zygotes created in cell: 1, 6.
+  24 zygotes created in cell: 1, 7.
+  14 zygotes created in cell: 1, 8.
+  2 zygotes created in cell: 1, 9.
+  2 zygotes created in cell: 2, 0.
+  6 zygotes created in cell: 2, 1.
+  21 zygotes created in cell: 2, 2.
+  18 zygotes created in cell: 2, 3.
+  18 zygotes created in cell: 2, 4.
+  20 zygotes created in cell: 2, 5.
+  24 zygotes created in cell: 2, 6.
+  15 zygotes created in cell: 2, 7.
+  19 zygotes created in cell: 2, 8.
+  8 zygotes created in cell: 2, 9.
+  19 zygotes created in cell: 3, 0.
+  16 zygotes created in cell: 3, 1.
+  23 zygotes created in cell: 3, 2.
+  18 zygotes created in cell: 3, 3.
+  15 zygotes created in cell: 3, 4.
+  7 zygotes created in cell: 3, 5.
+  3 zygotes created in cell: 3, 6.
+  6 zygotes created in cell: 3, 7.
+  5 zygotes created in cell: 3, 8.
+  19 zygotes created in cell: 3, 9.
+  15 zygotes created in cell: 4, 0.
+  19 zygotes created in cell: 4, 1.
+  21 zygotes created in cell: 4, 2.
+  5 zygotes created in cell: 4, 3.
+  19 zygotes created in cell: 4, 4.
+  4 zygotes created in cell: 4, 5.
+  7 zygotes created in cell: 4, 6.
+  22 zygotes created in cell: 4, 7.
+  14 zygotes created in cell: 4, 8.
+  4 zygotes created in cell: 4, 9.
+  6 zygotes created in cell: 5, 0.
+  7 zygotes created in cell: 5, 1.
+  18 zygotes created in cell: 5, 2.
+  18 zygotes created in cell: 5, 3.
+  21 zygotes created in cell: 5, 4.
+  20 zygotes created in cell: 5, 5.
+  4 zygotes created in cell: 5, 6.
+  19 zygotes created in cell: 5, 7.
+  6 zygotes created in cell: 5, 8.
+  21 zygotes created in cell: 5, 9.
+  18 zygotes created in cell: 6, 0.
+  20 zygotes created in cell: 6, 1.
+  21 zygotes created in cell: 6, 2.
+  18 zygotes created in cell: 6, 3.
+  20 zygotes created in cell: 6, 4.
+  5 zygotes created in cell: 6, 5.
+  15 zygotes created in cell: 6, 6.
+  21 zygotes created in cell: 6, 7.
+  20 zygotes created in cell: 6, 8.
+  21 zygotes created in cell: 6, 9.
+  19 zygotes created in cell: 7, 0.
+  14 zygotes created in cell: 7, 1.
+  21 zygotes created in cell: 7, 2.
+  18 zygotes created in cell: 7, 3.
+  7 zygotes created in cell: 7, 4.
+  5 zygotes created in cell: 7, 5.
+  9 zygotes created in cell: 7, 6.
+  16 zygotes created in cell: 7, 7.
+  7 zygotes created in cell: 7, 8.
+  13 zygotes created in cell: 7, 9.
+  21 zygotes created in cell: 8, 0.
+  21 zygotes created in cell: 8, 1.
+  19 zygotes created in cell: 8, 2.
+  20 zygotes created in cell: 8, 3.
+  3 zygotes created in cell: 8, 4.
+  20 zygotes created in cell: 8, 5.
+  17 zygotes created in cell: 8, 6.
+  8 zygotes created in cell: 8, 7.
+  17 zygotes created in cell: 8, 8.
+  22 zygotes created in cell: 8, 9.
+  5 zygotes created in cell: 9, 0.
+  18 zygotes created in cell: 9, 1.
+  21 zygotes created in cell: 9, 2.
+  16 zygotes created in cell: 9, 3.
+  6 zygotes created in cell: 9, 4.
+  4 zygotes created in cell: 9, 5.
+  19 zygotes created in cell: 9, 6.
+  21 zygotes created in cell: 9, 7.
+  18 zygotes created in cell: 9, 8.
+  4 zygotes created in cell: 9, 9.
+  -----------
+  Zygotes formatted as seeds.
+  Seed output (F): 1439
+  Seeds dispersed.
+Survival: 0.006 sec elapsed
+Germination: 39.392 sec elapsed
+Growth: 0.006 sec elapsed
+Competition: 0.113 sec elapsed
+Reproduction: 3.115 sec elapsed
+Generation: 42.968 sec elapsed
++++++++++++++++++++++++++++
+Simulation 1, Generation 5:
+Survival:
+  Disturbance reduced survival chances by 75 %.
+  Surviving adults: 1/100
+Germination:
+  Seeds unable to germinate because of established adults: 13
+33~~~~~~~~~~~~~~~~~3~~~~~~343444333333~~3~~3~~~~~~~~~3~~~~~~~~4333343~~~3~~~~~3~~~~~~~~~~~~4~~3~~433333~~~3~~~~3~~333~~~33333~~4~33~~43343344~~333~~~~3~334~33~~~~33~~~~~~~~~~~4~~~~~~~~~~~~~~~~~~3~3333~~~~~333~~~~~~~~4~~~3~~~~~~~~33~3~3~~~33~333~~~3~~~333~~3~3333~~~~3~33~~~~~~~3~333~3~~~~~~~~~~33333~~~~~~~~~3~~3~~~~~~33333~~3~~4~~~3~~~~~~33333~~~~~~3~~~~~3~34~33~333~~~~~~~~3443333343~3~~~4~~~~4~3~3~~~~~~~~~43433433433~4~~~~~~~444343~~~~3~3~~~3~333~~~~4433~3343333333333~~433~33~3~3~3~~~~~~4~~~3~4~~~~~~33~44444~3~~~3~~3~~~~~~~~~4~~3~3~3~~~~3~~~~~~3~~~~~~~~3~~~~~4~~~~~~~~~~~~3~3~43333~~334~~~~~~~~~~3~~~~~~~3~~3~~~~~~3~~~~~~~~~~33~~3~~~333~~~~~~~~~~~~~~3~~3~~~~~~~~~3~3
+  New juveniles: 672
+  Surviving ungerminated seeds: 0/754
+Growth:
+  Growth rate min: 1.053
+  Growth rate max: 2.668
+  Adults before growth: 1
+  Adults after growth: 643
+Competition (between adults):
+  K = 1
+  Size increases chances.
+  Populated locations with competition: 99
+  Populated locations without competition: 1
+  7 plants compete in cell: 0, 0.
+  6 plants compete in cell: 0, 1.
+  10 plants compete in cell: 0, 2.
+  7 plants compete in cell: 0, 3.
+  4 plants compete in cell: 0, 4.
+  9 plants compete in cell: 0, 5.
+  10 plants compete in cell: 0, 6.
+  7 plants compete in cell: 0, 7.
+  9 plants compete in cell: 0, 8.
+  6 plants compete in cell: 0, 9.
+  8 plants compete in cell: 1, 0.
+  6 plants compete in cell: 1, 1.
+  7 plants compete in cell: 1, 2.
+  7 plants compete in cell: 1, 3.
+  4 plants compete in cell: 1, 4.
+  6 plants compete in cell: 1, 5.
+  3 plants compete in cell: 1, 6.
+  4 plants compete in cell: 1, 7.
+  2 plants compete in cell: 1, 8.
+  6 plants compete in cell: 1, 9.
+  5 plants compete in cell: 2, 0.
+  7 plants compete in cell: 2, 1.
+  4 plants compete in cell: 2, 2.
+  7 plants compete in cell: 2, 3.
+  6 plants compete in cell: 2, 4.
+  9 plants compete in cell: 2, 5.
+  4 plants compete in cell: 2, 6.
+  8 plants compete in cell: 2, 7.
+  13 plants compete in cell: 2, 8.
+  7 plants compete in cell: 2, 9.
+  7 plants compete in cell: 3, 0.
+  2 plants compete in cell: 3, 1.
+  10 plants compete in cell: 3, 2.
+  10 plants compete in cell: 3, 3.
+  6 plants compete in cell: 3, 4.
+  4 plants compete in cell: 3, 5.
+  9 plants compete in cell: 3, 6.
+  2 plants compete in cell: 3, 7.
+  11 plants compete in cell: 3, 8.
+  6 plants compete in cell: 3, 9.
+  4 plants compete in cell: 4, 0.
+  7 plants compete in cell: 4, 1.
+  3 plants compete in cell: 4, 2.
+  10 plants compete in cell: 4, 3.
+  7 plants compete in cell: 4, 4.
+  10 plants compete in cell: 4, 5.
+  8 plants compete in cell: 4, 6.
+  7 plants compete in cell: 4, 7.
+  4 plants compete in cell: 4, 8.
+  9 plants compete in cell: 5, 0.
+  11 plants compete in cell: 5, 1.
+  2 plants compete in cell: 5, 2.
+  8 plants compete in cell: 5, 3.
+  7 plants compete in cell: 5, 4.
+  4 plants compete in cell: 5, 5.
+  3 plants compete in cell: 5, 6.
+  2 plants compete in cell: 5, 7.
+  10 plants compete in cell: 5, 8.
+  9 plants compete in cell: 5, 9.
+  4 plants compete in cell: 6, 0.
+  12 plants compete in cell: 6, 1.
+  2 plants compete in cell: 6, 2.
+  9 plants compete in cell: 6, 3.
+  2 plants compete in cell: 6, 4.
+  4 plants compete in cell: 6, 5.
+  7 plants compete in cell: 6, 6.
+  7 plants compete in cell: 6, 7.
+  6 plants compete in cell: 6, 8.
+  6 plants compete in cell: 6, 9.
+  10 plants compete in cell: 7, 0.
+  6 plants compete in cell: 7, 1.
+  6 plants compete in cell: 7, 2.
+  8 plants compete in cell: 7, 3.
+  6 plants compete in cell: 7, 4.
+  6 plants compete in cell: 7, 5.
+  5 plants compete in cell: 7, 6.
+  8 plants compete in cell: 7, 7.
+  4 plants compete in cell: 7, 8.
+  6 plants compete in cell: 7, 9.
+  7 plants compete in cell: 8, 0.
+  11 plants compete in cell: 8, 1.
+  5 plants compete in cell: 8, 2.
+  5 plants compete in cell: 8, 3.
+  5 plants compete in cell: 8, 4.
+  5 plants compete in cell: 8, 5.
+  8 plants compete in cell: 8, 6.
+  8 plants compete in cell: 8, 7.
+  14 plants compete in cell: 8, 8.
+  11 plants compete in cell: 8, 9.
+  4 plants compete in cell: 9, 0.
+  2 plants compete in cell: 9, 1.
+  4 plants compete in cell: 9, 2.
+  3 plants compete in cell: 9, 3.
+  5 plants compete in cell: 9, 4.
+  4 plants compete in cell: 9, 5.
+  5 plants compete in cell: 9, 6.
+  7 plants compete in cell: 9, 7.
+  7 plants compete in cell: 9, 8.
+  8 plants compete in cell: 9, 9.
+  Loosers removed.
+  Juveniles outcompeted by adults in the same location: 30
+  Juveniles remaining: 0
+Reproduction:
+  Adults ready to reproduce: 100
+  2500 ovules created: 25 ovules per adult.
+  -----------
+  21 zygotes created in cell: 0, 0.
+  17 zygotes created in cell: 0, 1.
+  7 zygotes created in cell: 0, 2.
+  19 zygotes created in cell: 0, 3.
+  20 zygotes created in cell: 0, 4.
+  18 zygotes created in cell: 0, 5.
+  5 zygotes created in cell: 0, 6.
+  19 zygotes created in cell: 0, 7.
+  15 zygotes created in cell: 0, 8.
+  19 zygotes created in cell: 0, 9.
+  4 zygotes created in cell: 1, 0.
+  22 zygotes created in cell: 1, 1.
+  2 zygotes created in cell: 1, 2.
+  18 zygotes created in cell: 1, 3.
+  22 zygotes created in cell: 1, 4.
+  17 zygotes created in cell: 1, 5.
+  20 zygotes created in cell: 1, 6.
+  4 zygotes created in cell: 1, 7.
+  20 zygotes created in cell: 1, 8.
+  19 zygotes created in cell: 1, 9.
+  22 zygotes created in cell: 2, 0.
+  14 zygotes created in cell: 2, 1.
+  20 zygotes created in cell: 2, 2.
+  19 zygotes created in cell: 2, 3.
+  1 zygotes created in cell: 2, 4.
+  6 zygotes created in cell: 2, 5.
+  5 zygotes created in cell: 2, 6.
+  17 zygotes created in cell: 2, 7.
+  15 zygotes created in cell: 2, 8.
+  20 zygotes created in cell: 2, 9.
+  20 zygotes created in cell: 3, 0.
+  4 zygotes created in cell: 3, 1.
+  15 zygotes created in cell: 3, 2.
+  17 zygotes created in cell: 3, 3.
+  10 zygotes created in cell: 3, 4.
+  4 zygotes created in cell: 3, 5.
+  4 zygotes created in cell: 3, 6.
+  4 zygotes created in cell: 3, 7.
+  18 zygotes created in cell: 3, 8.
+  4 zygotes created in cell: 3, 9.
+  18 zygotes created in cell: 4, 0.
+  19 zygotes created in cell: 4, 1.
+  19 zygotes created in cell: 4, 2.
+  17 zygotes created in cell: 4, 3.
+  18 zygotes created in cell: 4, 4.
+  17 zygotes created in cell: 4, 5.
+  1 zygotes created in cell: 4, 6.
+  19 zygotes created in cell: 4, 7.
+  3 zygotes created in cell: 4, 8.
+  6 zygotes created in cell: 4, 9.
+  4 zygotes created in cell: 5, 0.
+  6 zygotes created in cell: 5, 1.
+  19 zygotes created in cell: 5, 2.
+  16 zygotes created in cell: 5, 3.
+  8 zygotes created in cell: 5, 4.
+  22 zygotes created in cell: 5, 5.
+  19 zygotes created in cell: 5, 6.
+  18 zygotes created in cell: 5, 7.
+  3 zygotes created in cell: 5, 8.
+  22 zygotes created in cell: 5, 9.
+  20 zygotes created in cell: 6, 0.
+  23 zygotes created in cell: 6, 1.
+  20 zygotes created in cell: 6, 2.
+  4 zygotes created in cell: 6, 3.
+  5 zygotes created in cell: 6, 4.
+  1 zygotes created in cell: 6, 5.
+  5 zygotes created in cell: 6, 6.
+  21 zygotes created in cell: 6, 7.
+  7 zygotes created in cell: 6, 8.
+  17 zygotes created in cell: 6, 9.
+  18 zygotes created in cell: 7, 0.
+  17 zygotes created in cell: 7, 1.
+  3 zygotes created in cell: 7, 2.
+  16 zygotes created in cell: 7, 3.
+  15 zygotes created in cell: 7, 4.
+  18 zygotes created in cell: 7, 5.
+  21 zygotes created in cell: 7, 6.
+  17 zygotes created in cell: 7, 7.
+  21 zygotes created in cell: 7, 8.
+  22 zygotes created in cell: 7, 9.
+  17 zygotes created in cell: 8, 0.
+  4 zygotes created in cell: 8, 1.
+  19 zygotes created in cell: 8, 2.
+  18 zygotes created in cell: 8, 3.
+  6 zygotes created in cell: 8, 4.
+  21 zygotes created in cell: 8, 5.
+  22 zygotes created in cell: 8, 6.
+  21 zygotes created in cell: 8, 7.
+  18 zygotes created in cell: 8, 8.
+  22 zygotes created in cell: 8, 9.
+  7 zygotes created in cell: 9, 0.
+  17 zygotes created in cell: 9, 1.
+  22 zygotes created in cell: 9, 2.
+  19 zygotes created in cell: 9, 3.
+  17 zygotes created in cell: 9, 4.
+  3 zygotes created in cell: 9, 5.
+  19 zygotes created in cell: 9, 6.
+  5 zygotes created in cell: 9, 7.
+  6 zygotes created in cell: 9, 8.
+  17 zygotes created in cell: 9, 9.
+  -----------
+  Zygotes formatted as seeds.
+  Seed output (F): 1412
+  Seeds dispersed.
+Survival: 0.005 sec elapsed
+Germination: 31.868 sec elapsed
+Growth: 0.006 sec elapsed
+Competition: 0.122 sec elapsed
+Reproduction: 3.128 sec elapsed
+Generation: 35.506 sec elapsed
++++++++++++++++++++++++++++
