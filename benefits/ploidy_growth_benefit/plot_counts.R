@@ -11,7 +11,7 @@ theme_colors <- list(
 
 benefit_name <- "growth-benefit"
 benefit_range <- c("0.0", "0.5", "1.0")
-benefit_path <- "simulations/benefits/ploidy_growth_benefit/"
+benefit_path <- "benefits/ploidy_growth_benefit/"
 dist_range <- c("000", "100", "050", "025")
 run <- 4
 
@@ -52,10 +52,10 @@ all_counts %>%
 
 # Sort out facet labels so they're meaningful and properly ordered
 all_counts$growth_benefit <- all_counts$growth_benefit %>%
-  factor(levels(all_counts$growth_benefit)[3:1])
+  factor(levels(as.factor(all_counts$growth_benefit))[3:1])
 
 all_counts$dist_lvl <- all_counts$dist_lvl %>%
-  factor(levels(all_counts$dist_lvl)[c(1, 4:2)]) %>%
+  factor(levels(as.factor(all_counts$dist_lvl))[c(1, 4:2)]) %>%
   revalue(
     c(
       "25" = 1/25,
@@ -137,3 +137,8 @@ ggsave(
   dpi = "retina",
   title = "Polyploid Gigas Effects and Disturbance"
 )
+
+
+# Save all the counts
+all_counts %>%
+  saveRDS(paste0(benefit_path, "data/_counts_", run, ".rds"))
