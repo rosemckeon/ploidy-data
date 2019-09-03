@@ -7,7 +7,7 @@ library(disturploidy)
 name <- "triploid-sterility"
 generations <- 200
 simulations <- 1
-runs <- 1:3
+runs <- 1
 
 # saves a new data file for every run which contains
 # the number of simulations specified. A separate
@@ -30,6 +30,7 @@ for(run in runs){
     # turn on polyploids but don't give them a cost
     ploidy_prob = 0.01
   )
+  if(run > 1){
   # then turn on the cost and vary it
   this_run <- paste0(
     name, "_0.375_disturbance_000_", run
@@ -102,6 +103,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 100
   )
+  }
   this_run <- paste0(
     name, "_0.000_disturbance_100_", run
   )
@@ -232,7 +234,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 25
   )
-
+  }
   # 10 -------------------------------------------
   this_run <- paste0(
     name, "_0.750_disturbance_010_", run
@@ -251,6 +253,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 10
   )
+  if(run > 1){
   # then reduce fecundity
   this_run <- paste0(
     name, "_0.375_disturbance_010_", run
@@ -270,6 +273,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 10
   )
+  }
   this_run <- paste0(
     name, "_0.000_disturbance_010_", run
   )

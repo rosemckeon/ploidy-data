@@ -12,7 +12,8 @@ theme_colors <- list(
 name <- "matching"
 cost_range <- c("0.000")
 path <- "costs/uneven_matching_prob/"
-dist_range <- c("000")
+dist_range <- c("000", "010")
+pollen_range <- c("29")
 run <- 1
 
 # read in all the data files and combine tallies
@@ -21,32 +22,42 @@ for(val in cost_range){
   message("val: ", val)
   for(dist_lvl in dist_range){
     message("dist_lvl: ", dist_lvl)
-    # get the data
-    sim <- paste0(
-      path, "data/", name, "_", val, "_",
-      "disturbance_", dist_lvl, "_pollen_29_", run, ".rds"
-    ) %>%
-      readRDS()
-    # save the disturbances
-    disturbance <- sim$data$disturbance
-    # overwrite full data with just adults
-    sim <- sim$data$adults %>% select(gen, ploidy) %>%
-      # give parameter cols for facets
-      mutate(
-        triploid_mum_prob = as.numeric(val),
-        dist_lvl = as.numeric(dist_lvl)
+    for(range in pollen_range){
+      message("range: ", range)
+      # get the data
+      file <- paste0(
+        path, "data/", name, "_", val,
+        "_disturbance_", dist_lvl,
+        "_pollen_", range,
+        "_", run, ".rds"
       )
-     # tally by grouping variable and keep in the new columns
-    counts <- sim %>%
-      group_by(gen, ploidy, triploid_mum_prob, dist_lvl) %>%
-      tally()
-    # clear memory
-    sim <- NULL; gc(F)
-    # combine dataframes
-    all_counts <- bind_rows(all_counts, counts)
+      message("file: ", file)
+      break()
+      sim <- readRDS(file)
+
+      sim$data$adults
+      # save the disturbances
+      # disturbance <- sim$data$disturbance
+      # overwrite full data with just adults
+      sim <- sim$data$adults %>% select(gen, ploidy) %>%
+        # give parameter cols for facets
+        mutate(
+          triploid_mum_prob = as.numeric(val),
+          dist_lvl = as.numeric(dist_lvl),
+          pollen_range = as.numeric(range)
+        )
+      # tally by grouping variable and keep in the new columns
+      counts <- sim %>%
+        group_by(gen, ploidy, triploid_mum_prob, dist_lvl, pollen_range) %>%
+        tally()
+      # clear memory
+      sim <- NULL; gc(F)
+      counts
+      # combine dataframes
+      all_counts <- bind_rows(all_counts, counts)
+    }
   }
 }
-
 
 # Save all the counts
 all_counts %>%
@@ -65,6 +76,20 @@ all_counts %>%
 #       "100" = 1/100
 #     )
 #   )
+
+
+all_counts$ploidy = all_counts$ploidy %>%
+  factor() %>%
+  revalue(
+    c(
+      "2" = "Diploid",
+      "3" = "Triploid",
+      "4" = "Tetraploid"
+    )
+  )
+
+
+
 
 
 
