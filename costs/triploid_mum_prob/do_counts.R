@@ -10,7 +10,7 @@ theme_colors <- list(
 )
 
 name <- "triploid-sterility"
-cost_range <- c("0.000")
+cost_range <- c("0.000", "0.375", "0.750")
 path <- "costs/triploid_mum_prob/"
 dist_range <- c("000", "050", "100")
 run <- 1
@@ -65,7 +65,15 @@ all_counts$dist_lvl <- all_counts$dist_lvl %>%
     )
   )
 
-
+all_counts$ploidy = all_counts$ploidy %>%
+  factor() %>%
+  revalue(
+    c(
+      "2" = "Diploid",
+      "3" = "Triploid",
+      "4" = "Tetraploid"
+    )
+  )
 
 # Save all the counts
 all_counts %>%
