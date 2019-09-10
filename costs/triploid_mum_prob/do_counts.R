@@ -53,8 +53,8 @@ all_counts %>%
   saveRDS(paste0(path, "data/_counts_", run, ".rds"))
 
 # Sort out facet labels so they're meaningful and properly ordered
-# all_counts$growth_benefit <- all_counts$growth_benefit %>%
-#   factor(levels(as.factor(all_counts$growth_benefit))[3:1])
+all_counts$triploid_mum_prob <- all_counts$triploid_mum_prob %>%
+  factor(levels(as.factor(all_counts$triploid_mum_prob))[3:1])
 
 all_counts$dist_lvl <- all_counts$dist_lvl %>%
   factor(levels(as.factor(all_counts$dist_lvl))[c(1, 3:2)]) %>%
