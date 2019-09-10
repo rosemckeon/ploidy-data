@@ -1,0 +1,9 @@
+data/triploid-sterility_0.000_disturbance_000_1.rds filter=lfs diff=lfs merge=lfs -text
+data/triploid-sterility_0.000_disturbance_050_1.rds filter=lfs diff=lfs merge=lfs -text
+data/triploid-sterility_0.375_disturbance_000_1.rds filter=lfs diff=lfs merge=lfs -text
+data/triploid-sterility_0.375_disturbance_050_1.rds filter=lfs diff=lfs merge=lfs -text
+data/triploid-sterility_0.750_disturbance_000_1.rds filter=lfs diff=lfs merge=lfs -text
+data/triploid-sterility_0.750_disturbance_050_1.rds filter=lfs diff=lfs merge=lfs -text
+data/triploid-sterility_0.000_disturbance_100_1.rds filter=lfs diff=lfs merge=lfs -text
+data/triploid-sterility_0.375_disturbance_100_1.rds filter=lfs diff=lfs merge=lfs -text
+data/triploid-sterility_0.750_disturbance_100_1.rds filter=lfs diff=lfs merge=lfs -text

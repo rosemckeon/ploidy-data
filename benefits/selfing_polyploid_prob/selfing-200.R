@@ -7,12 +7,13 @@ library(disturploidy)
 name <- "selfing"
 generations <- 200
 simulations <- 1
-runs <- 1:3
+runs <- 1
 
 # saves a new data file for every run which contains
 # the number of simulations specified. A separate
 # logfile is stored for each simulation.
 for(run in runs){
+  if(run > 1){
   # include a null result
   this_run <- paste0(name, "_0.0_disturbance_000_pollen_29_", run)
   disturploidy(
@@ -98,6 +99,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 100
   )
+  }
   this_run <- paste0(
     name, "_1.0_disturbance_100_pollen_09_", run
   )
@@ -117,7 +119,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 100
   )
-
+  if(run > 1){
   # 50
   this_run <- paste0(name, "_0.0_disturbance_050_pollen_29_", run)
   disturploidy(
@@ -171,6 +173,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 50
   )
+  
   this_run <- paste0(
     name, "_1.0_disturbance_050_pollen_09_", run
   )
@@ -190,7 +193,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 50
   )
-
+ 
   # 25
   this_run <- paste0(name, "_0.0_disturbance_025_pollen_29_", run)
   disturploidy(
@@ -244,6 +247,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 25
   )
+  
   this_run <- paste0(
     name, "_1.0_disturbance_025_pollen_09", run
   )
@@ -263,8 +267,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 25
   )
-
-
+  
   # 10
   this_run <- paste0(name, "_0.0_disturbance_010_pollen_29_", run)
   disturploidy(
@@ -318,6 +321,7 @@ for(run in runs){
     # and add disturbance
     disturbance_freq = 10
   )
+  }
   this_run <- paste0(
     name, "_1.0_disturbance_010_pollen_9", run
   )
