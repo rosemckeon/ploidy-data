@@ -12,7 +12,7 @@ theme_colors <- list(
 name <- "matching"
 cost_range <- c("0.000")
 path <- "costs/uneven_matching_prob/"
-dist_range <- c("000", "010")
+dist_range <- c("000")
 pollen_range <- c("29")
 run <- 1
 
@@ -32,7 +32,6 @@ for(val in cost_range){
         "_", run, ".rds"
       )
       message("file: ", file)
-      break()
       sim <- readRDS(file)
 
       sim$data$adults
@@ -67,15 +66,14 @@ all_counts %>%
 # all_counts$growth_benefit <- all_counts$growth_benefit %>%
 #   factor(levels(as.factor(all_counts$growth_benefit))[3:1])
 
-# all_counts$dist_lvl <- all_counts$dist_lvl %>%
-#   factor(levels(as.factor(all_counts$dist_lvl))[c(1, 4:2)]) %>%
-#   revalue(
-#     c(
-#       "25" = 1/25,
-#       "50" = 1/50,
-#       "100" = 1/100
-#     )
-#   )
+all_counts$dist_lvl <- all_counts$dist_lvl %>%
+  factor(levels(as.factor(all_counts$dist_lvl))[c(1, 3:2)]) %>%
+  revalue(
+    c(
+      "10" = 1/10,
+      "100" = 1/100
+    )
+  )
 
 
 all_counts$ploidy = all_counts$ploidy %>%
@@ -88,11 +86,6 @@ all_counts$ploidy = all_counts$ploidy %>%
     )
   )
 
-
-
-
-
-
 # Save all the counts
-# all_counts %>%
-#   saveRDS(paste0(benefit_path, "data/_counts_", run, ".rds"))
+all_counts %>%
+  saveRDS(paste0(path, "data/_counts_", run, ".rds"))
