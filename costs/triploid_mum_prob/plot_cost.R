@@ -8,11 +8,11 @@ theme_colors <- list(
   black = "#000000"
 )
 
-all_counts <- readRDS("benefits/triploid_mum_prob/data/_counts_1.rds")
+all_counts <- readRDS("costs/triploid_mum_prob/data/_counts_1.rds")
 
 null <- all_counts %>%
   filter(dist_lvl == 0) %>%
-  filter(growth_benefit == 1)
+  filter(triploid_mum_prob == 0.750)
 
 # Now make a useful plot
 # of just the null result
@@ -71,7 +71,7 @@ null %>% ggplot(
 
 # export plot as file
 ggsave(
-  paste0("triploid-sterility_ON-1.pdf"),
+  paste0("triploid-sterility-ON-1.pdf"),
   path = "costs/triploid_mum_prob/plots", device = "pdf",
   width = 11.69, height = 8.27, units = "in",
   dpi = "retina",
