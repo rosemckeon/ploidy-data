@@ -12,7 +12,7 @@ theme_colors <- list(
 name <- "triploid-sterility"
 cost_range <- c("0.000")
 path <- "costs/triploid_mum_prob/"
-dist_range <- c("000")
+dist_range <- c("000", "050", "100")
 run <- 1
 
 # read in all the data files and combine tallies
@@ -28,7 +28,7 @@ for(val in cost_range){
     ) %>%
       readRDS()
     # save the disturbances
-    disturbance <- sim$data$disturbance
+    # disturbance <- sim$data$disturbance
     # overwrite full data with just adults
     sim <- sim$data$adults %>% select(gen, ploidy) %>%
       # give parameter cols for facets
@@ -56,18 +56,17 @@ all_counts %>%
 # all_counts$growth_benefit <- all_counts$growth_benefit %>%
 #   factor(levels(as.factor(all_counts$growth_benefit))[3:1])
 
-# all_counts$dist_lvl <- all_counts$dist_lvl %>%
-#   factor(levels(as.factor(all_counts$dist_lvl))[c(1, 4:2)]) %>%
-#   revalue(
-#     c(
-#       "25" = 1/25,
-#       "50" = 1/50,
-#       "100" = 1/100
-#     )
-#   )
+all_counts$dist_lvl <- all_counts$dist_lvl %>%
+  factor(levels(as.factor(all_counts$dist_lvl))[c(1, 3:2)]) %>%
+  revalue(
+    c(
+      "50" = 1/50,
+      "100" = 1/100
+    )
+  )
 
 
 
 # Save all the counts
-# all_counts %>%
-#   saveRDS(paste0(benefit_path, "data/_counts_", run, ".rds"))
+all_counts %>%
+  saveRDS(paste0(path, "data/_counts_", run, ".rds"))
