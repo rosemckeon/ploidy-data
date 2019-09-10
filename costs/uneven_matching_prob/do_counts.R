@@ -10,9 +10,9 @@ theme_colors <- list(
 )
 
 name <- "matching"
-cost_range <- c("0.000")
+cost_range <- c("0.750")
 path <- "costs/uneven_matching_prob/"
-dist_range <- c("000")
+dist_range <- c("000", "100")
 pollen_range <- c("29")
 run <- 1
 
@@ -61,6 +61,8 @@ for(val in cost_range){
 # Save all the counts
 all_counts %>%
   saveRDS(paste0(path, "data/_counts_", run, ".rds"))
+# Or load all the counts
+# all_counts <- bind_rows(prev_all_counts, all_counts)
 
 # Sort out facet labels so they're meaningful and properly ordered
 # all_counts$growth_benefit <- all_counts$growth_benefit %>%
@@ -74,7 +76,6 @@ all_counts$dist_lvl <- all_counts$dist_lvl %>%
       "100" = 1/100
     )
   )
-
 
 all_counts$ploidy = all_counts$ploidy %>%
   factor() %>%
